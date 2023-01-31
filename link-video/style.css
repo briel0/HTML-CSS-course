@@ -49,9 +49,9 @@ body{
 }
 
 .button:hover{
-    border: 5px solid black;
-    color: black;
-    background-color: white;
+    /* border: 5px solid black;
+    color: black; */
+    background-color: rgba(255, 255, 255, 0.151);
 }
 
 .voltar:hover{
