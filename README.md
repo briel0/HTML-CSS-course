@@ -1,2 +1,2 @@
 # HTML-CSS-course
-Some beginer projects using the basics of HTML and CSS
+Some beginner projects using the basics of HTML and CSS
