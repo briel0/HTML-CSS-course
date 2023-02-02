@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body{
+    background: #C0D7BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card{
+    position: relative;
+    background: #BEDCFE;
+    border: 3px solid black;
+    width: 350px;
+    height: 190px;
+    transition: 0.5s;
+}
+
+.card:hover{
+    height: 500px;
+}
+
+.imgbx{
+    position: absolute;
+    background: #fff;
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.card:hover .imgbx{
+    width: 250px;
+    height: 250px;
+}
+
+.photo{
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.name h2{
+    font-size: 1.7em;
+    line-height: 1.3em;
+}
+
+.details{
+    text-align: center;
+    transform: translateY(115px);
+}
+
+.skl{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.skl h3{
+    line-height: 1.5em;
+}
+
+.lgimg{
+    width: 45px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 50px;
+    transition: 0.1s;
+}
+
+.btn:hover{
+   cursor: pointer;
+   filter: drop-shadow(1px 1px 2px black);
+}
